@@ -1,0 +1,37 @@
+.container{
+    width: 50%;
+    height: 200vh;
+    background-color: #07f7ff;
+    position: relative;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    /* position: relative; */
+
+}
+.box1 {
+    position: relative;
+    background-color: #f7ff07;
+    /* left: 200px; */
+    right: 100px
+}
+.box2 {
+    background-color: #ff07f7;
+    position: absolute;
+    right: -100px;
+    z-index: -1;
+}
+.box3 {
+    background-color: #07ff07;
+    position: fixed;
+    top: 100px;
+    right: 700px;
+    z-index: -2;
+}
+.box4 {
+    background-color: #f70707;
+    position: sticky;
+    top: 0;
+    left: 400px;
+}

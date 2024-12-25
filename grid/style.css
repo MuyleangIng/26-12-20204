@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(48, 100px);
+    grid-template-rows: 50px 100px 200px 250px;
+    /* grid-template-columns: 100px 200px 300px 400px; */
+}
+.item{
+    /* width: 100px;
+    height: 100px; */
+    background-color: #07f7ff;
+}
